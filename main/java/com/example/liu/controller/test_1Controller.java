@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class test_1Controller {
     @Autowired
-    @GetMapping("/hello")
+    @GetMapping("/test")
     public String test_1(){return "hello test_1";}
 }
